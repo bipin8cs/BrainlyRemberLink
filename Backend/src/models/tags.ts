@@ -1,6 +1,6 @@
 import mongoose, { model, Schema } from 'mongoose';
 
-const tag = new Schema({
+const tagSchema = new Schema({
     title: {
         type: String,
         required: true,
@@ -8,5 +8,4 @@ const tag = new Schema({
     },
 
 })
-const tags= model('tag', tag);
-module.exports = tags;
+export const Tag= model('Tag',tagSchema);

@@ -1,14 +1,11 @@
-import mongoose, { model, Schema } from 'mongoose';
+//import mongoose from "mongoose";
 
-const connectDb = async (): Promise<void> => {
-    try {
-        await mongoose.connect(process.env.MONGO_DB_URL || "mongodb+srv://pradhanbipina27:d4mA4R0YyvTnU8Rv@cluster0.nwb4jnn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
-    } catch (e: any) {
-        console.log("Error in connect in Mongodb", e.message)
-    }
 
-}
-export default connectDb;
+///you can the mongodb locally on your machine 
+// await mongoose.connect("mongodb://localhost:27017/brainly")
+
+//find it through altas deploayed URL
+ //await mongoose.connect(process.env.MONGO_DB_URL || "mongodb+srv://pradhanbipina27:d4mA4R0YyvTnU8Rv@cluster0.nwb4jnn.mongodb.net/brainly?retryWrites=true&w=majority&appName=Cluster0");
 
 
 

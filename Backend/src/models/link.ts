@@ -12,5 +12,4 @@ const linkSchema = new Schema({
     }
 })
 
-const link = model('link', linkSchema);
-module.exports = link;
+export const Link = model('link', linkSchema);

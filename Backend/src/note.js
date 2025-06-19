@@ -19,6 +19,13 @@ using  typescript, mongodb,express, jsonwebtoken
 //.d.ts file
 // if u create library of ouur own js file  then you can create a .d.ts file 
 
+| Term          | Description                                               |
+| ------------- | --------------------------------------------------------- |
+| **Embedding** | A numerical vector that represents data semantically      |
+| **Vector DB** | A database optimized for storing and searching embeddings |
+| **Use Case**  | Semantic search, recommendation engines, AI chat memory   |
+
+
 
 
 
@@ -63,4 +70,7 @@ websites------>
 
 
 
+searching techniques
 
+elastic search 
+algolia 

@@ -2,7 +2,7 @@ import mongoose, { model, Schema } from "mongoose";
 
 import { contentTypes } from '../configs/commonConfig';
 
-const content = new Schema({
+const contentSchma = new Schema({
     link: {
         type: String,
         required: true,
@@ -28,6 +28,6 @@ const content = new Schema({
         required: true
     }
 });
-const conntent = model('content', content);
-module.exports = conntent;
+export const Content = model('Content', contentSchma);
+
 
